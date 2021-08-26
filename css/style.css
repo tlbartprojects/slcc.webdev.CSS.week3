@@ -1,0 +1,163 @@
+body{
+ padding: 5px;
+ margin: 5px, auto;
+ background-color: rgba(255, 255, 0. .20);
+ font-family: sans-serif;
+ }
+header{
+  background-color: rgba(212, 224, 155, .50);
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(255, 255, 0, .10);
+  border-radius: 5px;
+  height: 5vw;
+}
+h1{
+  text-align: center;
+  color: rgba(10, 10, 1, .75);
+  font-variant: small-caps;  
+  font-size: 250%;
+}
+nav{
+  background-color: rgb(193, 204, 41, .75);
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: rgba(246, 244, 210, .15);
+  height: 2vw;
+}
+a.navlink{
+  background-color: rgb(255, 255, 255, .30);
+  color: rgba(10, 10, 1, .75);
+  margin: 20px 35px 20px 35px;
+  padding: 15px 60px 15px 60px;
+  border-style: solid;
+  border-color: rgba(255, 255, 0, .10);
+  border-width: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 125%;
+  height: 2vw;
+}
+main{
+background-color: rgba(246, 244, 210, .15);
+}
+section{
+ background-color: rgb(212, 224, 155, .75);
+ border-style: solid;
+ border-color: rgba(255, 255, 0, .10);
+ border-radius: 5px;
+ border-width: 5px;
+ margin: 20px 35px 20px 35px;
+ padding: 15px 15px 15px 15px;
+ height: 8vw;
+ overflow: auto;
+ float: left;
+ width: auto;
+}
+.portfolio{
+  background-color: rgb(212, 224, 155, .75);
+  border-style: solid;
+  border-color: rgba(255, 255, 0, .10);
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  height: 40vw;
+  overflow: auto;
+ }
+ .contact{
+  background-color: rgb(212, 224, 155, .75);
+  border-style: solid;
+  border-color: rgba(255, 255, 0, .10);
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  height: 30vw;
+  overflow: auto;
+ }
+ .resume{
+  background-color: rgb(212, 224, 155, .75);
+  border-style: solid;
+  border-color: rgba(255, 255, 0, .10);
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  height: 30vw;
+  overflow: auto;
+ }
+a.listlink{
+ color: rgba(10, 10, 1, .75);
+ text-decoration: none;
+}
+a:hover{
+  background-color: rgb(255, 203, 105, .50);
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+footer{
+  background-color: rgb(193, 204, 41, .75);
+  margin: 20px 35px 20px 35px;
+  padding: 15px 15px 15px 15px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgba(255, 255, 0, .10);
+  border-radius: 5px;
+  height: 2vw;
+  overflow: auto;
+  clear: both;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+}
+img{
+  height: auto;
+  margin: 20px;
+  border: 2px solid rgba(255, 255, 0, .10);
+}
+/*table styling*/
+  table{
+   border-collapse: separate;
+    width: 80%;
+    margin: 0 auto;
+    }
+    th{
+      padding: 15px 25px 15px 25px;
+      border: 0px solid white;
+      border-bottom: 3px solid #ffb90f;
+      background-color: #6e8b3d;
+      color: white;
+      font-size: 125%;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    tr{
+      border: 2px solid white;
+      background-color: rgba(78, 156, 78, 0.25);
+      opacity: .75;
+      line-height: normal;
+      }
+    tr:hover {
+      opacity: 1;
+    }
+    td{
+      padding: 15px 25px 15px 25px;
+      color: #8b8878;
+      font-weight: 600;
+      line-height: normal;
+      text-align: center;
+    }
+    td:hover{
+     color: #404040;
+    }
+/*styling by Tamara Buck 08.16.2021*/
+
